@@ -33,7 +33,7 @@ $array = [
     // 'ThirdArry'=>[90,100,110,120]
 
     'fruits'=>['apple', 'orange', 'Jam', 'Mango', 'Strawbrery'],
-    'foods'=>['Burger', 'Pizza', 'sandwich', 'Noodles', 'Rice'],
+    'foods' =>['Burger', 'Pizza', 'sandwich', 'Noodles', 'Rice'],
     'sweets'=>['Chamchom', 'Rasgulla', 'Mithai', 'Semai', 'Chana']
 ];
 
@@ -43,13 +43,11 @@ $array = [
 
 
 
-foreach($array as $MultiNames){
-    foreach($MultiNames as $three){
-        echo $three . '<br>';
-    }
+foreach($array['fruits'] as $MultiNames){
+   echo $MultiNames .'<br>';
 }
 
-
+echo '<br>';
 
 
 
